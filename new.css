@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+
+
+
+.navbar{
+    background-color: #5f8acb;
+    color: white;
+
+}
+
+
+
+
+
+
+@media (min-width: 1200px){
+h1 {
+    font-size: 28px;
+    margin-left: 10%;
+}
+}
