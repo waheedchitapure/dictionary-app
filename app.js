@@ -85,5 +85,4 @@ function renderSound(soundName) {
     aud.src = soundSrc;
     aud.controls = true;
     audioBox.appendChild(aud);
-
 }
