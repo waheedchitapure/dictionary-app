@@ -58,15 +58,20 @@ input{
     font-size: 14px;
    min-width: 400px;
    outline:none;
-
    border-radius: 32px;
-    border: 2px solid #a949d5;
+    border: 3px solid #b675d5;
     margin-right: 6px;
    
 }
 
-button{
+input:hover{
    
+    border: 1px solid #b300ff;
+    
+   
+}
+
+button{
     color: #fff;
     background: #941ccbcc;
     cursor: pointer;
@@ -78,14 +83,15 @@ button{
 }
 button:hover{
    
-    color: #fff;
+    color: #fff;    
     background: #a761c4cc;
     cursor: pointer;
-    border: none;
+  
     height: 100%;
     font-size: 16px;
     padding: 10px 10px;
     border-radius: 32px;
+    border: 1px solid #a761c4cc;
 }
 
 
